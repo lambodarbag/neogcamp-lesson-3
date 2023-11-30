@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
+:root {
+    --primary-color: #7C3AED ;
+};
+
 body {
     font-family: 'Josefin Sans', sans-serif;
 };
@@ -16,3 +20,12 @@ body {
 };
 
 /** links **/
+.link {
+    text-decoration: none;
+    padding: 1rem 0.5rem ;
+}
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+}
